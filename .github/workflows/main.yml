@@ -54,6 +54,6 @@ jobs:
 
       run: cmd /c NGROK-CHECK.bat
 
-    - name: Your RDP has been created!
+    - name: Your RDP has been configured and is ready. (Machine is active for 6 hours.)
 
       run: cmd /c loop.bat
