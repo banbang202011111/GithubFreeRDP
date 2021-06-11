@@ -50,7 +50,7 @@ jobs:
 
       run: sc start ngrok
 
-    - name: Configuring Virtual Internet ports.
+    - name: Configuring Virtual Internet ports. (Machine login information is in here also.)
 
       run: cmd /c NGROK-CHECK.bat
 
